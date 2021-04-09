@@ -1,4 +1,6 @@
 # /bin/bash
-#
-ln -s zsh/.zshrc ../.zshrc
-ln -s git/.gitconfig ../.gitconfig
+
+# install welcome and todo
+
+ln -s .dotfiles/zsh/.zshrc ../.zshrc
+ln -s .dotfiles/git/.gitconfig ../.gitconfig
